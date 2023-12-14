@@ -11,10 +11,10 @@ export username="<your_github_username>"
 
 export token="<your_github_PAT>"
 
-./bash-script.sh "<your-organization-name>" "<repo-name>"
+./bash-script.sh "your-organization-name" "repo-name"
 
 
-for example , ./bash-script.sh kubernetes community
+for example ,       ./bash-script.sh kubernetes community
 
 
 
@@ -22,12 +22,12 @@ if it shows  (run the following command)
  
 1.permission denied error 
 
-chmod 777 bash-script.sh
-<>
-./bash-script.sh "<your-organization-name>" "<repo-name>"
+    chmod 777 bash-script.sh
+
+    ./bash-script.sh "<your_organization_name>" "<repo_name>"
 
 2. jq command not found
 
-sudo apt install jq -y
-<>
-./bash-script.sh "<your-organization-name>" "<repo-name>"
+    sudo apt install jq -y
+
+    ./bash-script.sh "<your_organization_name>" "<repo_name>"
