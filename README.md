@@ -3,9 +3,9 @@
 As a devops engineer we have to maintain a lot of repos 
 This shell scripting projects helps in maintaining the list of all the users who access to your organization repo's
 
-Using github api we can 
+Using github api we can fetch the data
 
-run following command -
+## run following command -
 
 export username="<your_github_username>"
 
